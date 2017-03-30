@@ -18,6 +18,11 @@ You will be prompted to put your phone into the GearVR headset
 and the Oculus Browser will launch once you enter VR,
 opening the first URI found in the shared text.
 
+### Privacy
+
+As can be seen from a cursory inspection of the brief source code,
+Launch Oculus Browser does not store any data.
+
 Enjoy!
 -M
 
