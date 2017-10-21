@@ -68,6 +68,11 @@ public class MainActivity extends AppCompatActivity {
         // Add the URI to the browser intent, if any.
         if (uri != null) {
             Log.i(this.getPackageName(), "uri " + uri);
+
+            // Launch into VR.
+            uri = "ovrweb://vr?uri=" + Uri.encode(uri);
+            Log.i(this.getPackageName(), "in-VR uri " + uri);
+
             o.putExtra("uri", uri);
         }
 
